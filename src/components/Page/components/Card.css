@@ -1,0 +1,17 @@
+.posts {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.posts p {
+    font-size: 18px;
+}
+
+.post {
+  display:inline-block;
+  justify-content: center;
+  margin: 10px;  
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    overflow-x: hidden;
+    background-image: url(https://images.pexels.com/photos/3952064/pexels-photo-3952064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrap {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading {
+    cursor: default;
+}
